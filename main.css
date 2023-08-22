@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: hsl(234, 29%, 20%);
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+.content_wrapper{
+    margin: 150px 0 150px;
+    background: #fff;
+    max-height: 650px;
+    display: flex;
+    gap: 40px;
+    padding: 30px 30px 30px 60px;
+    border-radius: 30px;
+}
+
+.content_label{
+    font-size: 54px;
+    color:hsl(235, 18%, 26%) ;
+    margin: 70px 0 20px;
+    font-weight: 700;
+}
+
+.content_text{
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+    max-width: 400px;
+    margin-bottom: 60px;
+}
+
+.content_text_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.content_text_bottom img{
+    margin-right: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    max-width: 350px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.input_btn{
+    max-width: 350px;
+    padding: 16px 0 16px;
+    margin-top: 22px;
+    border-radius: 7px;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    font-weight: 700px;
+    font-size: 15px;
+}
+
+.join{
+    margin-bottom: 27px;
+}
+
+.form_text{
+    display: flex;
+    gap: 120px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.error{
+    display: none;
+    color: hsl(4, 100%, 67%);
+}
+
+.success{
+    background: #fff;
+    border-radius: 30px;
+    padding: 50px 60px 60px 60px;
+    max-width: 470px;
+    margin: 220px 0 250px;
+}
+
+.success_btn{
+    max-width: 350px;
+    padding: 16px 110px 16px 110px;
+    margin-top: 27px;
+    border-radius: 7px;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.success span{
+    font-weight: 700;
+}
+
+.success a{
+    text-decoration: none;
+    color: black;
+}
+
+.success h2{
+    font-size: 54px;
+    color:hsl(235, 18%, 26%) ;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 20px 0 27px;
+}
+
+.success p{
+    font-size: 15px;
+    line-height: 20px;
+}
