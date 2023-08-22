@@ -133,3 +133,39 @@ body{
     font-size: 15px;
     line-height: 20px;
 }
+
+
+@media screen and (max-width:375px){
+    .content_wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: 1200px;
+        padding: 10px 10px 30px 10px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .content_label{
+        font-size: 50px;
+    }
+
+    .content_wrapper img{
+        max-width: 345px;
+
+    }
+
+    .content_label{
+        margin: 0 0 20px;
+    }
+
+    .success{
+        padding: 150px 10px 0 10px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .success_btn{
+        margin: 200px 0 35px 15px;
+        padding: 16px 99px 16px 99px;
+    }
+}
